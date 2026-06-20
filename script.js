@@ -33,7 +33,7 @@ if (sendWhatsapp) {
     const data = getFormMessage();
     if (!data) return;
 
-    const phone = '2250709074146';
+    const phone = '+2250709074146';
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(data.body)}`;
     window.open(url, '_blank');
   });
